@@ -9,7 +9,7 @@ st.title('Tweet Analysis for Keyword "TEKNOFEST"')
 #left_chart,_, right_chart = st.columns([5, 2, 5])
 
 
-leftside = st.selectbox(
+leftside = st.sidebar.selectbox(
 'Please select a chart for visualization1',
 ('Top 10 Hashtags', 
 'Top 20 Mentions', 
@@ -27,7 +27,7 @@ leftside = st.selectbox(
 )
 
 
-rightside = st.selectbox(
+rightside = st.sidebar.selectbox(
 'Please select a chart for visualization2',
 ('Top 10 Hashtags', 
 'Top 20 Mentions', 
