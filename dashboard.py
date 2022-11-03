@@ -4,7 +4,12 @@ from PIL import Image
 
 # Page setting
 st.set_page_config(layout="wide")
-st.title('Tweet Analysis for Keyword "TEKNOFEST"')
+title_style = """
+<div style="background-color:tomato;padding:1.5px">
+<h1 style="color:white;text-align:center;">Tweet Analysis for Keyword "TEKNOFEST"</h1>
+</div><br>
+"""
+st.title(title_style,html_temp=True)
 html_temp = """
 <div style="background-color:tomato;padding:1.5px">
 <h1 style="color:white;text-align:center;">TEKNOFEST </h1>
